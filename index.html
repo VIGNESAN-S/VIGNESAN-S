@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshop</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="navbar">
+        <h1>Bookshow</h1>
+    </div>
+
+    <div class="container">
+        <div class="book-name">
+            <h2>Rich dad poor dad</h2>
+            <h4> Robort</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, debitis itaque cumque labore excepturi quibusdam nam alias voluptatibus officiis nobis iusto quia, explicabo magni facere officia amet, et aut libero.</p>
+            <button onclick="deletebook(event)">Delete</button>
+        </div>
+    </div>
+    <div class="popup-lay"></div>
+    <div class="popupbox">
+        <h2>Add books</h2>
+        <form>
+            <input type="text" placeholder="Book Title" id="boxid">
+            <input type="text" placeholder="Book Author" id="boxid-2">
+            <textarea placeholder="Short Description" id="boxid-3"></textarea>
+            <button id="add-book">Add</button>
+            <button id="cancel-book">Cancel</button>
+        </form>
+        
+    </div>
+
+    <button class="add-btu" id="popup-btu">+</button>
+    <script src="javascript.js"></script>
+</body>
+</html>
